@@ -53,13 +53,13 @@ To run Nova locally, execute the following steps:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [repository URL here] # Replace with your repository URL, e.g., git clone https://github.com/YourUsername/nova.git
+    git clone https://github.com/AshE-96/nova.git
     cd nova
     ```
 
 2.  **Install Python Dependencies:**
 
-    Ensure Python 3.x is installed on your system. Install required Python libraries using pip:
+    Ensure Python 3.11 is installed on your system. Install required Python libraries using pip:
 
     ```bash
     pip install -r requirements.txt
@@ -85,9 +85,9 @@ To run Nova locally, execute the following steps:
         *   Add your API key to `secrets.toml` as shown:
 
             ```toml
-            neshan_api_key = "YOUR_NESHAN_API_KEY_HERE"
+            neshan_api_key = "api key"
             ```
-            Replace `"YOUR_NESHAN_API_KEY_HERE"` with your actual Neshan API key.
+            Replace `"api key"` with your actual Neshan API key.
 
     *   **Option 2: Environment Variable (Deployment Recommended):**
         *   Define an environment variable named `NESHAN_API_KEY` and assign your API key as its value. Environment variable configuration methods vary by operating system and hosting environment.
