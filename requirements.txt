@@ -1,0 +1,7 @@
+streamlit
+ortools
+folium
+streamlit-folium
+requests
+numpy
+pandas
