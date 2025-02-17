@@ -272,7 +272,7 @@ def main():
     if 'map_data' not in st.session_state:
         st.session_state.map_data = None
     
-    api_key = st.text_input("کلید API نشان:", value="Your Api Key", type="password", key="api_key")
+    api_key = st.text_input("کلید API نشان:", value="api key", type="password", key="api_key")
     
     if not api_key:
         st.warning("لطفاً کلید API نشان را وارد کنید")
